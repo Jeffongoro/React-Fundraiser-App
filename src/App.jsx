@@ -2,8 +2,9 @@ import React from "react";
 
 const App = () => {
   return (
-    <div className=" bg-slate-400 w-full overflow-hidden">
-      <h1 className="text-3xl font-bold  text-center">Hello world!</h1>
+    <div className="w-screen h-screen bg-slate-100 flex">
+      <div className="h-full flex-1 bg-red-800"></div>
+      <div className="h-full flex-1 bg-slate-700"></div>
     </div>
   );
 };
